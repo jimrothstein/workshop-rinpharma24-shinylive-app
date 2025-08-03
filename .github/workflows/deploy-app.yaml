@@ -1,9 +1,13 @@
 # Workflow derived from https://github.com/posit-dev/r-shinylive/tree/actions-v1/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 #
 # Basic example of a GitHub Actions workflow that builds a Shiny app and deploys
 # it to GitHub Pages.
-name: Deploy app to gh-pages
+
+
+# @ 2AUG2025 .. seem to several variants allow gh pages to host a shinylive app
+# This variant is very slow; but seems to do everything !
+# uses: Deploy posit-dev/r-shinylive/.github/workflows/deploy-app.yaml@actions-v1
+
 
 on:
   # Manually trigger the workflow
