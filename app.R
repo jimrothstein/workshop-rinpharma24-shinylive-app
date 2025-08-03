@@ -1,5 +1,11 @@
 # Direct copy of https://github.com/rstudio/shiny/blob/3edf9bfad8ad69a93f744a4f63447442d23e7c9a/inst/examples-shiny/01_hello/app.R
 
+#pak::pak("usethis")
+
+#usethis::use_github_action(
+#  url = "https://github.com/posit-dev/r-shinylive/blob/actions-v1/examples/deploy-app.yaml"
+#)
+
 library(shiny)
 library(bslib)
 
